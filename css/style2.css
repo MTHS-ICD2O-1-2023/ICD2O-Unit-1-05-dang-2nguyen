@@ -2,8 +2,6 @@
 * Created on: Sep 2020
 * This file contains the CSS for index.html
 */
-
-
 .mdl-layout__header-row {
   justify-content: center;
   padding: 0;
@@ -15,16 +13,17 @@
   padding-top: 15pt;
 }
 
-.mdl-textfield__error {
-  color: lightgreen;
-}
-
-.page-content {
-  color: white;
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 1.25rem;
+.mdl-textfield__input {
+  background: #ffff;
 }
 
 body {
   background-color: white;
+}
+
+p {
+  color: blueviolet;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  padding-top: 5pt;
 }
